@@ -1,0 +1,24 @@
+title: 川喜田研究室｜IoTシステム研究室
+title_en: Kawakita Lab — IoT Systems Lab
+description: 神奈川工科大学 情報学部 情報工学科 川喜田研究室（IoTシステム研究室）。ワイヤレスセンシング、RFID・後方散乱通信、分散電力システムの研究。
+url: https://kwkt-lab.org
+baseurl: ""
+lang: ja
+timezone: Asia/Tokyo
+author: 川喜田 佑介
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+permalink: /news/:year/:month/:day/:title/
+exclude:
+  - README.md
+  - HOWTO_お知らせ追加.md
+feed:
+  path: news/feed.xml
+nav:
+  - { title: ホーム, url: / }
+  - { title: お知らせ, url: /news/ }
+  - { title: 研究テーマ, url: /research/ }
+  - { title: 業績, url: /publications/ }
+  - { title: English, url: /en/ }

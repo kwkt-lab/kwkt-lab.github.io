@@ -1,0 +1,10 @@
+<ul class="news">
+{% assign posts = site.posts %}{% if include.limit %}{% assign posts = site.posts | slice: 0, include.limit %}{% endif %}
+{% for post in posts %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y.%m.%d" }}{% endif %}</time>
+    {% if post.category_ja %}<span class="tag">{{ post.category_ja }}</span>{% endif %}
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>
