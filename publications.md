@@ -5,7 +5,10 @@ permalink: /publications/
 ---
 <h1>業績</h1>
 
-全業績（論文、国際会議、著書、解説、特許、受賞、外部資金など）は **[researchmap](https://researchmap.jp/kwkt)** に掲載しています。
+論文、国際会議、著書、解説、特許、受賞、外部資金などの業績は **[researchmap](https://researchmap.jp/kwkt)** に掲載しています。
+
+{% comment %}
+（非表示：将来使う可能性があるため残している）
 
 ## 業績の概要
 
@@ -28,3 +31,4 @@ permalink: /publications/
 <li>J. Mitsugi, Y. Kawakita, "Simultaneous Gen2 Inventory and Angle of Arrival Measurement of Backscatter Signals With Multiple Commodity SDRs," <i>IEEE Journal of Radio Frequency Identification</i>, vol.5, no.4, pp.368–377, 2021.</li>
 <li>N. Yoda, R. Kokubu, Y. Yamashita, Y. Kawakita, Y. Tobe, "CAWN: Calibration-Less Wi-Fi Sensing with NeRF2," <i>Ambient Intelligence and Smart Environments</i>, pp.71–78, 2025.</li>
 </ol>
+{% endcomment %}
